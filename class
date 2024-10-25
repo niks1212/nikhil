@@ -1,0 +1,9 @@
+def factorial_iterative(n):
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+# Test the function
+number = 5
+print(f"Iterative Factorial of {number} is: {factorial_iterative(number)}")
